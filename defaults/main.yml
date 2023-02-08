@@ -1,0 +1,12 @@
+---
+# defaults file for ansible-role-systemd-resolved
+systemd_resolved_dns: []
+systemd_resolved_fallback_dns: []
+systemd_resolved_domains: []
+systemd_resolved_llmnr: 'no'
+systemd_resolved_multicast_dns: 'no'
+systemd_resolved_dnssec: 'no'
+systemd_resolved_dns_over_tls: 'no'
+systemd_resolved_cache: 'no-negative'
+systemd_resolved_dns_stub_listener: 'yes'
+systemd_resolved_read_etc_hosts: 'yes'
